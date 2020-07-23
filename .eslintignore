@@ -1,0 +1,7 @@
+jest.config.js
+testing.setup.js
+/node_modules/*
+/coverage/*
+/dist/*
+server.js
+.eslintrc.js
