@@ -4,8 +4,9 @@ module.exports = {
         "es2020": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "airbnb",
+        // "eslint:recommended",
+        // "plugin:react/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -15,8 +16,10 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react-hooks"
     ],
     "rules": {
+        "semi": "off",
+        "react/jsx-fragments": "off"
     }
 };
